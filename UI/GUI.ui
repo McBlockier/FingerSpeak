@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>829</width>
+    <height>576</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="foot">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>450</y>
+      <width>831</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="StartButton">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="toolTip">
+      <string>Reconocimiento del abecedario</string>
+     </property>
+     <property name="text">
+      <string>Abecedario</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="StartTranslate">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>10</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="toolTip">
+      <string>Traducción en tiempo real</string>
+     </property>
+     <property name="text">
+      <string>Traducción</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="version">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>80</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="mainFrame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>831</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="labelDetect">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="mode">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>5</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="setMode">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>0</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
