@@ -12,9 +12,9 @@ FingerSpeak es una aplicación diseñada para el reconocimiento de la lengua de 
 
 - **Aprendizaje Personalizado:** FingerSpeak se adapta al usuario, mejorando con el tiempo para proporcionar traducciones más precisas y personalizadas.
 
-- **Diccionario de Lengua de Señas:** Incluye un amplio diccionario de términos en lengua de señas para ayudar a los usuarios a expandir su vocabulario y mejorar su comunicación.
-
 - **Entorno de Prueba:** FingerSpeak (Pre-Lease) permite a los usuarios probar y proporcionar retroalimentación sobre la aplicación antes de su lanzamiento oficial, asegurando que cumpla con sus necesidades y expectativas.
+  
+- **Traducción en tiempo real:** Permite a los usuario traducir en tiempo real las palabras en lengua de señas, para ayudar en su comunicación.
 
 ## Instalación
 
